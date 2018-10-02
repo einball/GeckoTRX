@@ -1,22 +1,63 @@
-# GeckoTRX-Front
+# GeckoTRX Firmware Guide
 
-GeckoTRX Front Assembly Design Files
+GeckoTRX Firmware Repository
 
 ## Getting Started
 
 GeckoTRX is a palm-sized Software Defined Radio with a focus on my own education and be a fun project in my spare time. The repository you are looking at is hosting the front assembly of the project, both hardware design files and software source files required to build the project. If you haven't done any programming or software development yet, or just want to download the latest release of the firmware, you may want to have a look at the [Quickstart Guide](#).
 
 
-### Prerequisites
+## Repository structure
 
-In order to view the hardware design files, you will need to obtain a copy of [Autodesk's EagleCAD](https://www.autodesk.com/products/eagle/) which is freely available to view the hardware design files. 
+This repository hosts all files related to firmware running on the GeckoTRX. If you are looking for the supporting utility files like Firmware Flasher, those are located in the `utils/` folder and are mostly written in Python. Since microcontrollers of different manufacturers are used, programming is done on a ´per-folder´ basis and grouped by Design Unit - If you are looking for the FrontAssemby firmware, look into the `FrontAssembly/` folder.
 
-The front assembly uses a EFM8BB1 microcontroller which features a 8051 core alongside with the neccessary peripherals to drive the LED's to indicate the transceivers status.
+To compile and link the firmwares, I tried to rely on open-source compilers to avoid any costly compilers. This [README] serves as an installation guide for all neccessary packages to successfully compile the firmwares for the SDR. My development environment is Linux Mint, so all steps provided are using the apt-based approach as far as package installation is concerned. Most packages, however, are the same on RPM based distributions. 
 
-For compilation the open source [small device compiler](http://sdcc.sourceforge.net/) and its libraries will be used in conjunction with a cmake style build environment to generate the Makefiles used to compile the code. cmake is also favored because it allows easy out-of-tree builds which keep the sourcetree clean. To install those tools in an apt based package management system, run the following command
+
+## Built with 
+
+* [sdcc](http://sdcc.sourceforge.net/) (Version 3.8.0)
+ 
+
+### Building sdcc
+
+For compilation of the front panel microcontroller, the open source [small device compiler](http://sdcc.sourceforge.net/) and its libraries will be used in conjunction with a make style build environment.
+Make is favoured because cmake does not have a proper integration with the sdcc compiler or at least I have not found any that runs without its very own problems. 
+Make provides a simple and clean interface and out-of-tree builds which keep the sourcetree clean can be handled easily handled too.
+
+Since the sdcc version 3.5.0 provided by the Mint repositories (at the time of writing) does not include the neccessary headers for the used EFM8BB1 microcontroller, sdcc will be compiled by source.  To do that, the following packages have to be installed to provide the compilation environment:  
 ```
-sudo apt-get install autoconf-archive gnu-standards autoconf-doc libtool gettext m4-doc sdcc git
+sudo apt-get install build-essential flex bison libboost-all-dev
+```
+
+Next, we download and extract the source files
+
+```
+wget --content-disposition -c "https://sourceforge.net/projects/sdcc/files/sdcc/3.8.0/sdcc-src-3.8.0-rc1.tar.bz2"
+tar -xvf ./sdcc-src-3.8.0-rc1.tar.bz2
+cd ./sdcc-3.8.0-rc1/
+```
+
+Since we will be compiling code for the 8051 architecture only, we can instruct `./configure` to disable other architectures and thereby saving some compilation time on older machines:
+
+```
+./configure --disable-z80-port --disable-z180-port  --disable-r2k-port --disable-r3ka-port  \
+                                --disable-gbz80-port --disable-tlcs90-port --disable-ds390-port  \
+                                --disable-ds400-port --disable-pic14-port --disable-pic16-port --disable-hc08-port\
+                                --disable-s08-port --disable-stm8-por
 ``` 
+
+Finally, we can build and install the compiler system-wide using make. There are a lot of cases one does not want to install a compiler built from source system-wide, however, having libraries in the right places makes life a lot easier. 
+
+```
+make -j4 && make install
+```
+
+For those wanting to keep their system clean, I have provided a Vagrantfile which i provisioned as such that it downloads and installs all neccessary software to compile the firmwares.
+
+
+
+## JLink Debug Adapter Driver
 
 To flash the firmware, we will have two choices: Either by using a JTAG Adapter like the JLink from SEGGER or the firmware update method implemented by the main controller which sadly is not implemented yet. Feel free to head over to the [GeckoTRX-Top Repository](#) and contribute!
 Using a JLink, drivers need to be installed first. Go to the [Segger Downloads page](https://www.segger.com/downloads/jlink/) and fetch the latest driver suitable for your distribution. To install the driver in an apt based distribution, execute
@@ -24,7 +65,7 @@ Using a JLink, drivers need to be installed first. Go to the [Segger Downloads p
 sudo dpkg -i /path/to/JLink_Linux_x86_64.deb
 ```
 
-This completes your development environment. You can, of course use any JTAG adapter implementation able to communicate via Silicon Labs C2 interface. Depending on the adapter, the procedures to download the code into the integrated circuit are diffeent. Please consult the documentation of your devices' manufacturer on how to use it or help extending this document :)
+This completes your development environment. You can, of course use any JTAG adapter implementation able to communicate with the device. Depending on the adapter, the procedures to download the code into the integrated circuit are diffeent. Please consult the documentation of your devices' manufacturer on how to use it or help extending this document :)
 
 The last step to be able to get the firmware build is to clone the repository using
 
@@ -33,7 +74,7 @@ git clone https://github.com/einball/GeckoTRX-Front
 cd GeckoTRX-Front/
 ```
 
-That's it! 
+and have fun. That's it! 
 
 
 ### Building the firmware
@@ -66,12 +107,6 @@ make flash
 ## Versioning
 
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-
-## Built with 
-
-* [sdcc](http://sdcc.sourceforge.net/)
-* [EagleCAD](https://www.autodesk.com/products/eagle/)
 
 
 ## License
