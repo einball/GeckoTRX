@@ -12,7 +12,7 @@
 #define INIT_DEVICE_H
 
 #include <stdio.h>
-#include <stdlib.h>
+#include <stdint.h>
 #include <EFM8BB1.h>
 
 
