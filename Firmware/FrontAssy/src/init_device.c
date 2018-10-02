@@ -31,17 +31,15 @@ void InitDevice(){
 	
 	// Disable Watchdog
 	WDTCN = 0xDE;
-	WTDCN = 0xDE;
+	WDTCN = 0xDE;
 
 	// XBAR Skipping: Assign UART0, SPI0 signals, skip rest for GPIO
-	P0SKIP   = 	B7__NOT_SKIPPED | B6__NOT_SKIPPED | B5__NOT_SKIPPED | B4__NOT_SKIPPED \
-				B3__NOT_SKIPPED | B2__NOT_SKIPPED | B1__NOT_SKIPPED | B0__SKIPPED
+	P0SKIP   = 	B7__NOT_SKIPPED | B6__NOT_SKIPPED | B5__NOT_SKIPPED | B4__NOT_SKIPPED | B3__NOT_SKIPPED | B2__NOT_SKIPPED | B1__NOT_SKIPPED | B0__SKIPPED;
 
-	P1SKIP 	 = 	B7__SKIPPED | B6__SKIPPED | B5__SKIPPED | B4_SKIPPED \
-				B3__SKIPPED | B2__SKIPPED | B1__SKIPPED | B0__SKIPPED;
+	P1SKIP 	 = 	B7__SKIPPED | B6__SKIPPED | B5__SKIPPED | B4__SKIPPED | B3__SKIPPED | B2__SKIPPED | B1__SKIPPED | B0__SKIPPED;
 
 	// XBAR Priority Assignment
-	XBR0  	 =	URT0E_ENABLED | SPI0E_ENABLED;
+	XBR0  	 =	URT0E__ENABLED | SPI0E__ENABLED;
 	XBR1  	 =	0x00;			
 	XBR2   	|= 	XBARE__ENABLED | WEAKPUD__PULL_UPS_ENABLED;
 
@@ -55,12 +53,12 @@ void InitDevice(){
 
 
 
-	P0MDIN  = ;				// Port 0 Input Mode: Analog / Digital Mode
-	P0MDOUT = ;				// Port 0 Output Mode: Push-Pull / Open-Drain
-	P1MDIN  = ;				// Port 1 Input Mode: Analog / Digital Mode
-	P1MDOUT = ;				// Port 1 Output Mode: Push-Pull / Open-Drain
-	P2MDIN  = ;				// Port 2 Input Mode: Analog / Digital Mode
-	P2MDOUT = ;				// Port 2 Output Mode: Push-Pull / Open-Drain
+//	P0MDIN  = ;				// Port 0 Input Mode: Analog / Digital Mode
+//	P0MDOUT = ;				// Port 0 Output Mode: Push-Pull / Open-Drain
+//	P1MDIN  = ;				// Port 1 Input Mode: Analog / Digital Mode
+//	P1MDOUT = ;				// Port 1 Output Mode: Push-Pull / Open-Drain
+//	P2MDIN  = ;				// Port 2 Input Mode: Analog / Digital Mode
+//	P2MDOUT = ;				// Port 2 Output Mode: Push-Pull / Open-Drain
 	
 	IE = 0xD0;				// Interrupt Enable:  Enable SPI0, UART0 and global interrupt
 	IP = 0x90;				// Interrupt Priority: UART0 High, rest low, IP.7 high as per datasheet
