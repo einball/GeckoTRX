@@ -419,30 +419,22 @@ design rules under a new name.</description>
 <vertex x="-30.5" y="-9"/>
 </polygon>
 <contactref element="U$1" pad="GND@2"/>
-<via x="-19" y="7.5" extent="1-16" drill="0.35"/>
-<via x="-17.4" y="7.6" extent="1-16" drill="0.35"/>
-<via x="-15.8" y="7.6" extent="1-16" drill="0.35"/>
-<via x="-14.2" y="7.6" extent="1-16" drill="0.35"/>
-<via x="-12.6" y="7.6" extent="1-16" drill="0.35"/>
-<via x="-11" y="7.6" extent="1-16" drill="0.35"/>
-<via x="-19" y="-7.4" extent="1-16" drill="0.35"/>
-<via x="-17.4" y="-7.4" extent="1-16" drill="0.35"/>
-<via x="-15.8" y="-7.4" extent="1-16" drill="0.35"/>
-<via x="-14.2" y="-7.4" extent="1-16" drill="0.35"/>
-<via x="-12.6" y="-7.4" extent="1-16" drill="0.35"/>
-<via x="-11" y="-7.4" extent="1-16" drill="0.35"/>
-<via x="11" y="7.6" extent="1-16" drill="0.35"/>
-<via x="12.6" y="7.6" extent="1-16" drill="0.35"/>
-<via x="14.2" y="7.6" extent="1-16" drill="0.35"/>
-<via x="15.8" y="7.6" extent="1-16" drill="0.35"/>
-<via x="17.4" y="7.6" extent="1-16" drill="0.35"/>
-<via x="19" y="7.6" extent="1-16" drill="0.35"/>
-<via x="11" y="-7.4" extent="1-16" drill="0.35"/>
-<via x="12.6" y="-7.4" extent="1-16" drill="0.35"/>
-<via x="14.2" y="-7.4" extent="1-16" drill="0.35"/>
-<via x="15.8" y="-7.4" extent="1-16" drill="0.35"/>
-<via x="17.4" y="-7.4" extent="1-16" drill="0.35"/>
-<via x="19" y="-7.4" extent="1-16" drill="0.35"/>
+<via x="-17.4" y="7" extent="1-16" drill="0.35"/>
+<via x="-15.8" y="7" extent="1-16" drill="0.35"/>
+<via x="-14.2" y="7" extent="1-16" drill="0.35"/>
+<via x="-12.6" y="7" extent="1-16" drill="0.35"/>
+<via x="-17.4" y="-7" extent="1-16" drill="0.35"/>
+<via x="-15.8" y="-7" extent="1-16" drill="0.35"/>
+<via x="-14.2" y="-7" extent="1-16" drill="0.35"/>
+<via x="-12.6" y="-7" extent="1-16" drill="0.35"/>
+<via x="12.6" y="7" extent="1-16" drill="0.35"/>
+<via x="14.2" y="7" extent="1-16" drill="0.35"/>
+<via x="15.8" y="7" extent="1-16" drill="0.35"/>
+<via x="17.4" y="7" extent="1-16" drill="0.35"/>
+<via x="12.6" y="-7" extent="1-16" drill="0.35"/>
+<via x="14.2" y="-7" extent="1-16" drill="0.35"/>
+<via x="15.8" y="-7" extent="1-16" drill="0.35"/>
+<via x="17.4" y="-7" extent="1-16" drill="0.35"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
