@@ -2329,8 +2329,6 @@ Your Multi-CB Team
 <via x="93.6" y="6.2" extent="1-16" drill="0.35"/>
 <wire x1="95.85" y1="3.8" x2="97" y2="3.8" width="0.2" layer="16"/>
 <via x="97" y="3.8" extent="1-16" drill="0.35"/>
-<wire x1="7.4" y1="12.55" x2="7.35" y2="12.55" width="0.2" layer="16"/>
-<wire x1="9.6" y1="2.55" x2="9.75" y2="2.4" width="0.2" layer="16"/>
 <polygon width="0.2" layer="15">
 <vertex x="-1" y="-1"/>
 <vertex x="-1" y="18"/>
