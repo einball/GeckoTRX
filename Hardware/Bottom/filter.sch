@@ -2198,7 +2198,7 @@ Wire Wire Line
 	9050 3900 9050 4050
 Wire Wire Line
 	8850 3900 8850 4050
-Text Label 7600 3100 0    50   ~ 0
+Text Label 7600 3500 0    50   ~ 0
 LPF_40M_IN
 $Comp
 L Device:L L?
@@ -2613,9 +2613,9 @@ Wire Wire Line
 	6900 1550 6750 1550
 Wire Wire Line
 	6900 1150 6750 1150
-Text HLabel 6750 1150 0    50   Input ~ 0
+Text HLabel 6750 1550 0    50   Input ~ 0
 LPF_IN
-Text HLabel 6750 1550 0    50   Output ~ 0
+Text HLabel 6750 1150 0    50   Output ~ 0
 LPF_OUT
 Wire Wire Line
 	7550 3500 8150 3500
@@ -2655,9 +2655,9 @@ Wire Wire Line
 	6950 3400 6800 3400
 Wire Wire Line
 	6950 3000 6800 3000
-Text HLabel 6800 3000 0    50   Input ~ 0
+Text HLabel 6800 3400 0    50   Input ~ 0
 LPF_IN
-Text HLabel 6800 3400 0    50   Output ~ 0
+Text HLabel 6800 3000 0    50   Output ~ 0
 LPF_OUT
 $Comp
 L power:GND #PWR?
@@ -2693,9 +2693,9 @@ Wire Wire Line
 	6950 5050 6800 5050
 Wire Wire Line
 	6950 4650 6800 4650
-Text HLabel 6800 4650 0    50   Input ~ 0
+Text HLabel 6800 5050 0    50   Input ~ 0
 LPF_IN
-Text HLabel 6800 5050 0    50   Output ~ 0
+Text HLabel 6800 4650 0    50   Output ~ 0
 LPF_OUT
 Wire Wire Line
 	7550 5150 8150 5150
@@ -2705,15 +2705,15 @@ Wire Wire Line
 	7550 4750 10700 4750
 Wire Wire Line
 	10700 3100 10700 3500
-Text Label 7600 4750 0    50   ~ 0
-LPF_20M_IN
-Text Label 7550 1250 0    50   ~ 0
-LPF_80M_IN
 Text Label 7600 5150 0    50   ~ 0
+LPF_20M_IN
+Text Label 7600 1650 0    50   ~ 0
+LPF_80M_IN
+Text Label 7600 4750 0    50   ~ 0
 LPF_20M_OUT
-Text Label 7600 3500 0    50   ~ 0
+Text Label 7600 3100 0    50   ~ 0
 LPF_40M_OUT
-Text Label 7550 1650 0    50   ~ 0
+Text Label 7600 1250 0    50   ~ 0
 LPF_80M_OUT
 Wire Wire Line
 	8150 3500 8350 3500
