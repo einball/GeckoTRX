@@ -1,0 +1,384 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:C C?
+U 1 1 5DBD72B7
+P 5150 4050
+AR Path="/5DBD72B7" Ref="C?"  Part="1" 
+AR Path="/5DB9B986/5DBD72B7" Ref="C?"  Part="1" 
+F 0 "C?" V 5100 3900 50  0000 C CNN
+F 1 "68p" V 5100 4200 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5188 3900 50  0001 C CNN
+F 3 "~" H 5150 4050 50  0001 C CNN
+	1    5150 4050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5DBD72BE
+P 5350 4050
+AR Path="/5DBD72BE" Ref="C?"  Part="1" 
+AR Path="/5DB9B986/5DBD72BE" Ref="C?"  Part="1" 
+F 0 "C?" V 5300 3900 50  0000 C CNN
+F 1 "68p" V 5300 4200 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5388 3900 50  0001 C CNN
+F 3 "~" H 5350 4050 50  0001 C CNN
+	1    5350 4050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:L L?
+U 1 1 5DBD72C5
+P 5600 3800
+AR Path="/5DBD72C5" Ref="L?"  Part="1" 
+AR Path="/5DB9B986/5DBD72C5" Ref="L?"  Part="1" 
+F 0 "L?" V 5790 3800 50  0000 C CNN
+F 1 "L" V 5699 3800 50  0000 C CNN
+F 2 "Inductor_SMD:L_1812_4532Metric" H 5600 3800 50  0001 C CNN
+F 3 "~" H 5600 3800 50  0001 C CNN
+	1    5600 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5DBD72CC
+P 5850 4050
+AR Path="/5DBD72CC" Ref="C?"  Part="1" 
+AR Path="/5DB9B986/5DBD72CC" Ref="C?"  Part="1" 
+F 0 "C?" V 5800 3900 50  0000 C CNN
+F 1 "68p" V 5800 4200 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5888 3900 50  0001 C CNN
+F 3 "~" H 5850 4050 50  0001 C CNN
+	1    5850 4050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5DBD72D3
+P 6050 4050
+AR Path="/5DBD72D3" Ref="C?"  Part="1" 
+AR Path="/5DB9B986/5DBD72D3" Ref="C?"  Part="1" 
+F 0 "C?" V 6000 3900 50  0000 C CNN
+F 1 "68p" V 6000 4200 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6088 3900 50  0001 C CNN
+F 3 "~" H 6050 4050 50  0001 C CNN
+	1    6050 4050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5DBD72DA
+P 6550 4050
+AR Path="/5DBD72DA" Ref="C?"  Part="1" 
+AR Path="/5DB9B986/5DBD72DA" Ref="C?"  Part="1" 
+F 0 "C?" V 6500 3900 50  0000 C CNN
+F 1 "68p" V 6500 4200 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6588 3900 50  0001 C CNN
+F 3 "~" H 6550 4050 50  0001 C CNN
+	1    6550 4050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5DBD72E1
+P 6750 4050
+AR Path="/5DBD72E1" Ref="C?"  Part="1" 
+AR Path="/5DB9B986/5DBD72E1" Ref="C?"  Part="1" 
+F 0 "C?" V 6700 3900 50  0000 C CNN
+F 1 "68p" V 6700 4200 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6788 3900 50  0001 C CNN
+F 3 "~" H 6750 4050 50  0001 C CNN
+	1    6750 4050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5DBD72E8
+P 7250 4050
+AR Path="/5DBD72E8" Ref="C?"  Part="1" 
+AR Path="/5DB9B986/5DBD72E8" Ref="C?"  Part="1" 
+F 0 "C?" V 7200 3900 50  0000 C CNN
+F 1 "68p" V 7200 4200 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7288 3900 50  0001 C CNN
+F 3 "~" H 7250 4050 50  0001 C CNN
+	1    7250 4050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5DBD72EF
+P 7450 4050
+AR Path="/5DBD72EF" Ref="C?"  Part="1" 
+AR Path="/5DB9B986/5DBD72EF" Ref="C?"  Part="1" 
+F 0 "C?" V 7400 3900 50  0000 C CNN
+F 1 "68p" V 7400 4200 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7488 3900 50  0001 C CNN
+F 3 "~" H 7450 4050 50  0001 C CNN
+	1    7450 4050
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DBD72F6
+P 5150 4350
+AR Path="/5DBD72F6" Ref="#PWR?"  Part="1" 
+AR Path="/5DB9B986/5DBD72F6" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5150 4100 50  0001 C CNN
+F 1 "GND" H 5155 4177 50  0000 C CNN
+F 2 "" H 5150 4350 50  0001 C CNN
+F 3 "" H 5150 4350 50  0001 C CNN
+	1    5150 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DBD72FC
+P 5350 4350
+AR Path="/5DBD72FC" Ref="#PWR?"  Part="1" 
+AR Path="/5DB9B986/5DBD72FC" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5350 4100 50  0001 C CNN
+F 1 "GND" H 5355 4177 50  0000 C CNN
+F 2 "" H 5350 4350 50  0001 C CNN
+F 3 "" H 5350 4350 50  0001 C CNN
+	1    5350 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DBD7302
+P 5850 4350
+AR Path="/5DBD7302" Ref="#PWR?"  Part="1" 
+AR Path="/5DB9B986/5DBD7302" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5850 4100 50  0001 C CNN
+F 1 "GND" H 5855 4177 50  0000 C CNN
+F 2 "" H 5850 4350 50  0001 C CNN
+F 3 "" H 5850 4350 50  0001 C CNN
+	1    5850 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DBD7308
+P 6050 4350
+AR Path="/5DBD7308" Ref="#PWR?"  Part="1" 
+AR Path="/5DB9B986/5DBD7308" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6050 4100 50  0001 C CNN
+F 1 "GND" H 6055 4177 50  0000 C CNN
+F 2 "" H 6050 4350 50  0001 C CNN
+F 3 "" H 6050 4350 50  0001 C CNN
+	1    6050 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DBD730E
+P 6550 4350
+AR Path="/5DBD730E" Ref="#PWR?"  Part="1" 
+AR Path="/5DB9B986/5DBD730E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6550 4100 50  0001 C CNN
+F 1 "GND" H 6555 4177 50  0000 C CNN
+F 2 "" H 6550 4350 50  0001 C CNN
+F 3 "" H 6550 4350 50  0001 C CNN
+	1    6550 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DBD7314
+P 6750 4350
+AR Path="/5DBD7314" Ref="#PWR?"  Part="1" 
+AR Path="/5DB9B986/5DBD7314" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6750 4100 50  0001 C CNN
+F 1 "GND" H 6755 4177 50  0000 C CNN
+F 2 "" H 6750 4350 50  0001 C CNN
+F 3 "" H 6750 4350 50  0001 C CNN
+	1    6750 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DBD731A
+P 7250 4350
+AR Path="/5DBD731A" Ref="#PWR?"  Part="1" 
+AR Path="/5DB9B986/5DBD731A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7250 4100 50  0001 C CNN
+F 1 "GND" H 7255 4177 50  0000 C CNN
+F 2 "" H 7250 4350 50  0001 C CNN
+F 3 "" H 7250 4350 50  0001 C CNN
+	1    7250 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DBD7320
+P 7450 4350
+AR Path="/5DBD7320" Ref="#PWR?"  Part="1" 
+AR Path="/5DB9B986/5DBD7320" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7450 4100 50  0001 C CNN
+F 1 "GND" H 7455 4177 50  0000 C CNN
+F 2 "" H 7450 4350 50  0001 C CNN
+F 3 "" H 7450 4350 50  0001 C CNN
+	1    7450 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 4350 5150 4200
+Wire Wire Line
+	5350 4350 5350 4200
+Wire Wire Line
+	5350 3900 5350 3800
+Wire Wire Line
+	5350 3800 5450 3800
+Wire Wire Line
+	5150 3900 5150 3800
+Wire Wire Line
+	5150 3800 5350 3800
+Connection ~ 5350 3800
+Wire Wire Line
+	5750 3800 5850 3800
+Wire Wire Line
+	5850 3800 5850 3900
+Wire Wire Line
+	5850 3800 6050 3800
+Wire Wire Line
+	6050 3800 6050 3900
+Connection ~ 5850 3800
+Wire Wire Line
+	6050 3800 6150 3800
+Connection ~ 6050 3800
+Wire Wire Line
+	6450 3800 6550 3800
+Wire Wire Line
+	6550 3800 6550 3900
+Wire Wire Line
+	6550 3800 6750 3800
+Wire Wire Line
+	6750 3800 6750 3900
+Connection ~ 6550 3800
+Wire Wire Line
+	6750 3800 6850 3800
+Connection ~ 6750 3800
+Wire Wire Line
+	7150 3800 7250 3800
+Wire Wire Line
+	7250 3800 7250 3900
+Wire Wire Line
+	7250 3800 7450 3800
+Wire Wire Line
+	7450 3800 7450 3900
+Connection ~ 7250 3800
+Wire Wire Line
+	7450 4200 7450 4350
+Wire Wire Line
+	7250 4200 7250 4350
+Wire Wire Line
+	6750 4200 6750 4350
+Wire Wire Line
+	6550 4200 6550 4350
+Wire Wire Line
+	6050 4200 6050 4350
+Wire Wire Line
+	5850 4200 5850 4350
+$Comp
+L Device:L L?
+U 1 1 5DBD7348
+P 6300 3800
+AR Path="/5DBD7348" Ref="L?"  Part="1" 
+AR Path="/5DB9B986/5DBD7348" Ref="L?"  Part="1" 
+F 0 "L?" V 6490 3800 50  0000 C CNN
+F 1 "L" V 6399 3800 50  0000 C CNN
+F 2 "Inductor_SMD:L_1812_4532Metric" H 6300 3800 50  0001 C CNN
+F 3 "~" H 6300 3800 50  0001 C CNN
+	1    6300 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:L L?
+U 1 1 5DBD734F
+P 7000 3800
+AR Path="/5DBD734F" Ref="L?"  Part="1" 
+AR Path="/5DB9B986/5DBD734F" Ref="L?"  Part="1" 
+F 0 "L?" V 7190 3800 50  0000 C CNN
+F 1 "L" V 7099 3800 50  0000 C CNN
+F 2 "Inductor_SMD:L_1812_4532Metric" H 7000 3800 50  0001 C CNN
+F 3 "~" H 7000 3800 50  0001 C CNN
+	1    7000 3800
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5150 3800
+Wire Wire Line
+	7700 3800 7450 3800
+Connection ~ 7450 3800
+$Comp
+L power:GND #PWR?
+U 1 1 5DE26501
+P 3850 3900
+AR Path="/5DE26501" Ref="#PWR?"  Part="1" 
+AR Path="/5DB9B986/5DE26501" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3850 3650 50  0001 C CNN
+F 1 "GND" H 3855 3727 50  0000 C CNN
+F 2 "" H 3850 3900 50  0001 C CNN
+F 3 "" H 3850 3900 50  0001 C CNN
+	1    3850 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DE26507
+P 3850 3500
+AR Path="/5DE26507" Ref="#PWR?"  Part="1" 
+AR Path="/5DB9B986/5DE26507" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3850 3250 50  0001 C CNN
+F 1 "GND" H 3855 3327 50  0000 C CNN
+F 2 "" H 3850 3500 50  0001 C CNN
+F 3 "" H 3850 3500 50  0001 C CNN
+	1    3850 3500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3850 3500 3950 3500
+Wire Wire Line
+	3850 3900 3950 3900
+Wire Wire Line
+	3950 3700 3800 3700
+Wire Wire Line
+	3950 3300 3800 3300
+Text HLabel 3800 3300 0    50   Input ~ 0
+LPF_IN
+Text HLabel 3800 3700 0    50   Output ~ 0
+LPF_OUT
+Wire Wire Line
+	4550 3800 5150 3800
+Wire Wire Line
+	7700 3400 7700 3800
+Wire Wire Line
+	4550 3400 7700 3400
+Text Label 4600 3400 0    50   ~ 0
+LPF_20M_IN
+Text Label 4600 3800 0    50   ~ 0
+LPF_20M_OUT
+$Comp
+L Relay:G6K-2 K?
+U 1 1 5DEE6BAD
+P 4250 3800
+F 0 "K?" V 5017 3800 50  0000 C CNN
+F 1 "G6K-2" V 4926 3800 50  0000 C CNN
+F 2 "Relay_SMD:Relay_DPDT_Omron_G6K-2G-Y" H 4900 3750 50  0001 L CNN
+F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf" H 4050 3800 50  0001 C CNN
+	1    4250 3800
+	0    -1   -1   0   
+$EndComp
+$EndSCHEMATC
