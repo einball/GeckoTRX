@@ -858,8 +858,6 @@ Wire Wire Line
 	6700 1250 6700 1050
 Wire Wire Line
 	6700 1050 6800 1050
-Wire Wire Line
-	6200 1150 6100 1150
 $Comp
 L Connector_Generic:Conn_02x05_Odd_Even J3
 U 1 1 5CFE5FAD
@@ -2099,28 +2097,8 @@ Wire Wire Line
 	7200 600  7200 650 
 Wire Wire Line
 	7100 650  7200 650 
-$Comp
-L Connector:TestPoint TP20
-U 1 1 61B0A9CC
-P 6200 1150
-F 0 "TP20" V 6300 1500 50  0000 C CNN
-F 1 "1V65" V 6200 1500 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 6400 1150 50  0001 C CNN
-F 3 "~" H 6400 1150 50  0001 C CNN
-F 4 "~" H 0   0   50  0001 C CNN "MPN"
-F 5 "x" H 0   0   50  0001 C CNN "DNP"
-	1    6200 1150
-	0    1    -1   0   
-$EndComp
-Text GLabel 6200 1050 2    50   Input ~ 0
+Text GLabel 6100 1150 2    50   Input ~ 0
 1V65
-Wire Wire Line
-	6200 1050 6100 1050
-Wire Wire Line
-	6100 1050 6100 1150
-Connection ~ 6100 1150
-Wire Wire Line
-	6100 1150 6000 1150
 Wire Wire Line
 	8200 950  9450 950 
 Wire Wire Line
@@ -2296,14 +2274,6 @@ Wire Wire Line
 Wire Wire Line
 	1850 2850 4150 2850
 Wire Wire Line
-	2100 3550 2250 3550
-Wire Wire Line
-	2250 2400 2250 2450
-Wire Wire Line
-	2100 3650 2350 3650
-Wire Wire Line
-	2350 2000 2350 2450
-Wire Wire Line
 	1850 2950 4600 2950
 Connection ~ 4150 2850
 Wire Wire Line
@@ -2331,15 +2301,11 @@ Wire Wire Line
 Wire Wire Line
 	2000 2350 2000 2400
 Wire Wire Line
-	2250 2750 2250 3550
-Wire Wire Line
-	2350 2750 2350 3650
+	2350 2750 2350 3550
 Connection ~ 2000 2000
 Connection ~ 2000 2400
 Wire Wire Line
 	2000 2000 2350 2000
-Wire Wire Line
-	2000 2400 2250 2400
 Wire Wire Line
 	2250 1750 2600 1750
 Wire Wire Line
@@ -2456,4 +2422,18 @@ Wire Wire Line
 	11100 2700 11000 2700
 Wire Wire Line
 	11000 2000 11000 2800
+Wire Wire Line
+	6000 1150 6100 1150
+Wire Wire Line
+	2000 2400 2250 2400
+Wire Wire Line
+	2350 2000 2350 2450
+Wire Wire Line
+	2250 2400 2250 2450
+Wire Wire Line
+	2250 3650 2100 3650
+Wire Wire Line
+	2250 2750 2250 3650
+Wire Wire Line
+	2100 3550 2350 3550
 $EndSCHEMATC
