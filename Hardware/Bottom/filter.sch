@@ -38,7 +38,7 @@ F 0 "J14" H 7078 2030 50  0000 L CNN
 F 1 "Conn_01x03_Female" H 7077 1985 50  0001 L CNN
 F 2 "Connector_PinSocket_1.27mm:PinSocket_1x03_P1.27mm_Vertical_SMD_Pin1Right" H 7050 2050 50  0001 C CNN
 F 3 "~" H 7050 2050 50  0001 C CNN
-F 4 "M50-3630342" H 0   0   50  0001 C CNN "MPN"
+F 4 "M50-3630342R" H 0   0   50  0001 C CNN "MPN"
 	1    7050 2050
 	-1   0    0    -1  
 $EndComp
@@ -52,7 +52,7 @@ F 0 "J15" H 7078 2580 50  0000 L CNN
 F 1 "Conn_01x03_Female" H 7077 2535 50  0001 L CNN
 F 2 "Connector_PinSocket_1.27mm:PinSocket_1x03_P1.27mm_Vertical_SMD_Pin1Right" H 7050 2600 50  0001 C CNN
 F 3 "~" H 7050 2600 50  0001 C CNN
-F 4 "M50-3630342" H 0   0   50  0001 C CNN "MPN"
+F 4 "M50-3630342R" H 0   0   50  0001 C CNN "MPN"
 	1    7050 2600
 	-1   0    0    -1  
 $EndComp
@@ -66,7 +66,7 @@ F 0 "J16" H 7078 3130 50  0000 L CNN
 F 1 "Conn_01x03_Female" H 7077 3085 50  0001 L CNN
 F 2 "Connector_PinSocket_1.27mm:PinSocket_1x03_P1.27mm_Vertical_SMD_Pin1Right" H 7050 3150 50  0001 C CNN
 F 3 "~" H 7050 3150 50  0001 C CNN
-F 4 "M50-3630342" H 0   0   50  0001 C CNN "MPN"
+F 4 "M50-3630342R" H 0   0   50  0001 C CNN "MPN"
 	1    7050 3150
 	-1   0    0    -1  
 $EndComp
@@ -80,7 +80,7 @@ F 0 "J17" H 7078 3680 50  0000 L CNN
 F 1 "Conn_01x03_Female" H 7077 3635 50  0001 L CNN
 F 2 "Connector_PinSocket_1.27mm:PinSocket_1x03_P1.27mm_Vertical_SMD_Pin1Right" H 7050 3700 50  0001 C CNN
 F 3 "~" H 7050 3700 50  0001 C CNN
-F 4 "M50-3630342" H 0   0   50  0001 C CNN "MPN"
+F 4 "M50-3630342R" H 0   0   50  0001 C CNN "MPN"
 	1    7050 3700
 	-1   0    0    -1  
 $EndComp
@@ -94,7 +94,7 @@ F 0 "J18" H 7078 4230 50  0000 L CNN
 F 1 "Conn_01x03_Female" H 7077 4185 50  0001 L CNN
 F 2 "Connector_PinSocket_1.27mm:PinSocket_1x03_P1.27mm_Vertical_SMD_Pin1Right" H 7050 4250 50  0001 C CNN
 F 3 "~" H 7050 4250 50  0001 C CNN
-F 4 "M50-3630342" H 0   0   50  0001 C CNN "MPN"
+F 4 "M50-3630342R" H 0   0   50  0001 C CNN "MPN"
 	1    7050 4250
 	-1   0    0    -1  
 $EndComp
@@ -108,7 +108,7 @@ F 0 "J12" H 7078 980 50  0000 L CNN
 F 1 "Conn_01x03_Female" H 7077 935 50  0001 L CNN
 F 2 "Connector_PinSocket_1.27mm:PinSocket_1x03_P1.27mm_Vertical_SMD_Pin1Right" H 7050 1000 50  0001 C CNN
 F 3 "~" H 7050 1000 50  0001 C CNN
-F 4 "M50-3630342" H 0   0   50  0001 C CNN "MPN"
+F 4 "M50-3630342R" H 0   0   50  0001 C CNN "MPN"
 	1    7050 1000
 	-1   0    0    -1  
 $EndComp
@@ -122,7 +122,7 @@ F 0 "J13" H 7078 1480 50  0000 L CNN
 F 1 "Conn_01x03_Female" H 7077 1435 50  0001 L CNN
 F 2 "Connector_PinSocket_1.27mm:PinSocket_1x03_P1.27mm_Vertical_SMD_Pin1Right" H 7050 1500 50  0001 C CNN
 F 3 "~" H 7050 1500 50  0001 C CNN
-F 4 "M50-3630342" H 0   0   50  0001 C CNN "MPN"
+F 4 "M50-3630342R" H 0   0   50  0001 C CNN "MPN"
 	1    7050 1500
 	-1   0    0    -1  
 $EndComp
@@ -448,7 +448,7 @@ F 0 "J21" H 9500 2700 50  0000 L CNN
 F 1 "Conn_01x03_Female" H 9677 2435 50  0001 L CNN
 F 2 "Connector_PinSocket_1.27mm:PinSocket_1x03_P1.27mm_Vertical_SMD_Pin1Right" H 9650 2500 50  0001 C CNN
 F 3 "~" H 9650 2500 50  0001 C CNN
-F 4 "M50-3630342" H 0   0   50  0001 C CNN "MPN"
+F 4 "M50-3630342R" H 0   0   50  0001 C CNN "MPN"
 	1    9650 2500
 	1    0    0    -1  
 $EndComp
@@ -462,7 +462,7 @@ F 0 "J22" H 9500 3150 50  0000 L CNN
 F 1 "Conn_01x03_Female" H 9677 2885 50  0001 L CNN
 F 2 "Connector_PinSocket_1.27mm:PinSocket_1x03_P1.27mm_Vertical_SMD_Pin1Right" H 9650 2950 50  0001 C CNN
 F 3 "~" H 9650 2950 50  0001 C CNN
-F 4 "M50-3630342" H 0   0   50  0001 C CNN "MPN"
+F 4 "M50-3630342R" H 0   0   50  0001 C CNN "MPN"
 	1    9650 2950
 	1    0    0    -1  
 $EndComp
@@ -476,7 +476,7 @@ F 0 "J23" H 9500 3600 50  0000 L CNN
 F 1 "Conn_01x03_Female" H 9677 3335 50  0001 L CNN
 F 2 "Connector_PinSocket_1.27mm:PinSocket_1x03_P1.27mm_Vertical_SMD_Pin1Right" H 9650 3400 50  0001 C CNN
 F 3 "~" H 9650 3400 50  0001 C CNN
-F 4 "M50-3630342" H 0   0   50  0001 C CNN "MPN"
+F 4 "M50-3630342R" H 0   0   50  0001 C CNN "MPN"
 	1    9650 3400
 	1    0    0    -1  
 $EndComp
@@ -490,7 +490,7 @@ F 0 "J24" H 9450 4050 50  0000 L CNN
 F 1 "Conn_01x03_Female" H 9677 3785 50  0001 L CNN
 F 2 "Connector_PinSocket_1.27mm:PinSocket_1x03_P1.27mm_Vertical_SMD_Pin1Right" H 9650 3850 50  0001 C CNN
 F 3 "~" H 9650 3850 50  0001 C CNN
-F 4 "M50-3630342" H 0   0   50  0001 C CNN "MPN"
+F 4 "M50-3630342R" H 0   0   50  0001 C CNN "MPN"
 	1    9650 3850
 	1    0    0    -1  
 $EndComp
@@ -504,7 +504,7 @@ F 0 "J25" H 9450 4500 50  0000 L CNN
 F 1 "Conn_01x03_Female" H 9677 4235 50  0001 L CNN
 F 2 "Connector_PinSocket_1.27mm:PinSocket_1x03_P1.27mm_Vertical_SMD_Pin1Right" H 9650 4300 50  0001 C CNN
 F 3 "~" H 9650 4300 50  0001 C CNN
-F 4 "M50-3630342" H 0   0   50  0001 C CNN "MPN"
+F 4 "M50-3630342R" H 0   0   50  0001 C CNN "MPN"
 	1    9650 4300
 	1    0    0    -1  
 $EndComp
@@ -518,7 +518,7 @@ F 0 "J19" H 9500 1800 50  0000 L CNN
 F 1 "Conn_01x03_Female" H 9677 1535 50  0001 L CNN
 F 2 "Connector_PinSocket_1.27mm:PinSocket_1x03_P1.27mm_Vertical_SMD_Pin1Right" H 9650 1600 50  0001 C CNN
 F 3 "~" H 9650 1600 50  0001 C CNN
-F 4 "M50-3630342" H 0   0   50  0001 C CNN "MPN"
+F 4 "M50-3630342R" H 0   0   50  0001 C CNN "MPN"
 	1    9650 1600
 	1    0    0    -1  
 $EndComp
@@ -532,7 +532,7 @@ F 0 "J20" H 9500 2250 50  0000 L CNN
 F 1 "Conn_01x03_Female" H 9677 1985 50  0001 L CNN
 F 2 "Connector_PinSocket_1.27mm:PinSocket_1x03_P1.27mm_Vertical_SMD_Pin1Right" H 9650 2050 50  0001 C CNN
 F 3 "~" H 9650 2050 50  0001 C CNN
-F 4 "M50-3630342" H 0   0   50  0001 C CNN "MPN"
+F 4 "M50-3630342R" H 0   0   50  0001 C CNN "MPN"
 	1    9650 2050
 	1    0    0    -1  
 $EndComp
@@ -546,7 +546,7 @@ F 0 "J28" H 10744 2693 50  0000 C CNN
 F 1 "Conn_01x03_Female" H 10877 2435 50  0001 L CNN
 F 2 "Connector_PinSocket_1.27mm:PinSocket_1x03_P1.27mm_Vertical_SMD_Pin1Right" H 10850 2500 50  0001 C CNN
 F 3 "~" H 10850 2500 50  0001 C CNN
-F 4 "M50-3630342" H 0   0   50  0001 C CNN "MPN"
+F 4 "M50-3630342R" H 0   0   50  0001 C CNN "MPN"
 	1    10850 2500
 	1    0    0    -1  
 $EndComp
@@ -560,7 +560,7 @@ F 0 "J29" H 10744 3143 50  0000 C CNN
 F 1 "Conn_01x03_Female" H 10877 2885 50  0001 L CNN
 F 2 "Connector_PinSocket_1.27mm:PinSocket_1x03_P1.27mm_Vertical_SMD_Pin1Right" H 10850 2950 50  0001 C CNN
 F 3 "~" H 10850 2950 50  0001 C CNN
-F 4 "M50-3630342" H 0   0   50  0001 C CNN "MPN"
+F 4 "M50-3630342R" H 0   0   50  0001 C CNN "MPN"
 	1    10850 2950
 	1    0    0    -1  
 $EndComp
@@ -574,7 +574,7 @@ F 0 "J30" H 10744 3593 50  0000 C CNN
 F 1 "Conn_01x03_Female" H 10877 3335 50  0001 L CNN
 F 2 "Connector_PinSocket_1.27mm:PinSocket_1x03_P1.27mm_Vertical_SMD_Pin1Right" H 10850 3400 50  0001 C CNN
 F 3 "~" H 10850 3400 50  0001 C CNN
-F 4 "M50-3630342" H 0   0   50  0001 C CNN "MPN"
+F 4 "M50-3630342R" H 0   0   50  0001 C CNN "MPN"
 	1    10850 3400
 	1    0    0    -1  
 $EndComp
@@ -588,7 +588,7 @@ F 0 "J31" H 10744 4043 50  0000 C CNN
 F 1 "Conn_01x03_Female" H 10877 3785 50  0001 L CNN
 F 2 "Connector_PinSocket_1.27mm:PinSocket_1x03_P1.27mm_Vertical_SMD_Pin1Right" H 10850 3850 50  0001 C CNN
 F 3 "~" H 10850 3850 50  0001 C CNN
-F 4 "M50-3630342" H 0   0   50  0001 C CNN "MPN"
+F 4 "M50-3630342R" H 0   0   50  0001 C CNN "MPN"
 	1    10850 3850
 	1    0    0    -1  
 $EndComp
@@ -602,7 +602,7 @@ F 0 "J32" H 10744 4493 50  0000 C CNN
 F 1 "Conn_01x03_Female" H 10877 4235 50  0001 L CNN
 F 2 "Connector_PinSocket_1.27mm:PinSocket_1x03_P1.27mm_Vertical_SMD_Pin1Right" H 10850 4300 50  0001 C CNN
 F 3 "~" H 10850 4300 50  0001 C CNN
-F 4 "M50-3630342" H 0   0   50  0001 C CNN "MPN"
+F 4 "M50-3630342R" H 0   0   50  0001 C CNN "MPN"
 	1    10850 4300
 	1    0    0    -1  
 $EndComp
@@ -616,7 +616,7 @@ F 0 "J26" H 10744 1793 50  0000 C CNN
 F 1 "Conn_01x03_Female" H 10877 1535 50  0001 L CNN
 F 2 "Connector_PinSocket_1.27mm:PinSocket_1x03_P1.27mm_Vertical_SMD_Pin1Right" H 10850 1600 50  0001 C CNN
 F 3 "~" H 10850 1600 50  0001 C CNN
-F 4 "M50-3630342" H 0   0   50  0001 C CNN "MPN"
+F 4 "M50-3630342R" H 0   0   50  0001 C CNN "MPN"
 	1    10850 1600
 	1    0    0    -1  
 $EndComp
@@ -630,7 +630,7 @@ F 0 "J27" H 10744 2243 50  0000 C CNN
 F 1 "Conn_01x03_Female" H 10877 1985 50  0001 L CNN
 F 2 "Connector_PinSocket_1.27mm:PinSocket_1x03_P1.27mm_Vertical_SMD_Pin1Right" H 10850 2050 50  0001 C CNN
 F 3 "~" H 10850 2050 50  0001 C CNN
-F 4 "M50-3630342" H 0   0   50  0001 C CNN "MPN"
+F 4 "M50-3630342R" H 0   0   50  0001 C CNN "MPN"
 	1    10850 2050
 	1    0    0    -1  
 $EndComp
@@ -929,7 +929,7 @@ F 0 "C31" V 2398 4550 50  0000 C CNN
 F 1 "100n" V 2489 4550 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 2688 4400 50  0001 C CNN
 F 3 "~" H 2650 4550 50  0001 C CNN
-F 4 "C0805C104K5RECTU" H 50  0   50  0001 C CNN "MPN"
+F 4 "C0805C104J5RACTU" H 50  0   50  0001 C CNN "MPN"
 	1    2650 4550
 	0    1    1    0   
 $EndComp
