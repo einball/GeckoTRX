@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Package_SO)(type KiCad)(uri /home/einball/git/kicad-footprint-generator/kicad-footprint-generator/scripts/Packages/Package_Gullwing__QFP_SOIC_SO/Package_SO.pretty)(options "")(descr ""))
+)
